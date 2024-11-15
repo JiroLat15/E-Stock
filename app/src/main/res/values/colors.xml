@@ -1,0 +1,17 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light mode colors -->
+    <color name="colorPrimary">#99b4b3</color>
+    <color name="colorPrimaryDark">#99b4b3</color>
+    <color name="textColor">#000000</color>
+
+    <!-- Dark mode colors -->
+    <color name="colorPrimaryNight">#8995B0</color>
+    <color name="colorPrimaryDarkNight">#8995B0</color>
+    <color name="textColorNight">@color/white</color>
+
+    <color name="your_drawer_icon_color">#FF00FF</color>
+</resources>

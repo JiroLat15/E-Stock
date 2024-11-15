@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/SHP_RoundedRectangleIsland2"
+        android:layout_width="460dp"
+        android:layout_height="76dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/SHP_LayoutHolder"
+        android:layout_width="460dp"
+        android:layout_height="790dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <ImageView
+        android:id="@+id/IV_estockhomepage6"
+        android:layout_width="175dp"
+        android:layout_height="372dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="408dp"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toTopOf="@+id/SHP_LayoutHolder"
+        app:srcCompat="@drawable/estockhomepagev2" />
+
+    <ImageView
+        android:id="@+id/IV_estockhomepage2"
+        android:layout_width="175dp"
+        android:layout_height="372dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toTopOf="@+id/SHP_LayoutHolder"
+        app:srcCompat="@drawable/estockhomepage" />
+
+    <TextView
+        android:id="@+id/TV_GuideTXT2"
+        android:layout_width="270dp"
+        android:layout_height="575dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="5dp"
+        android:justificationMode="inter_word"
+        android:text="- The E-Stock Home Screen layout shows you everything that you need to know.
+        \n\n\n- The Full Function of the program is accessible through the Home Screen alone.
+        \n\n\n- (Indication of the Create Button, Remove Button, Update Button, and the View Button).
+        \n\n\n- This blank space is where the features and functions of the program would run.
+        \n\n\n- This side button pulls out the menu sidebar for other options."
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/IV_estockhomepage6"
+        app:layout_constraintTop_toBottomOf="@+id/TV_GuideTXT1" />
+
+    <TextView
+        android:id="@+id/TV_GuideTXT1"
+        android:layout_width="270dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="I. E-Stock Home Screen Layout"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/IV_estockhomepage2"
+        app:layout_constraintTop_toTopOf="@+id/SHP_LayoutHolder" />
+
+    <TextView
+        android:id="@+id/SHP_RoundedRectangleIsland"
+        android:layout_width="462dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BTN_Return"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button2"
+        android:text="Return"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/BTN_Back"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button"
+        android:text="Back"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toStartOf="@+id/BTN_Return"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/BTN_Next"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button"
+        android:text="NEXT"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintStart_toEndOf="@+id/BTN_Return"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <TextView
+        android:id="@+id/TV_Help"
+        android:layout_width="460dp"
+        android:layout_height="60dp"
+
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Guide Book to E-Stock"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

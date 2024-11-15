@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/SHP_RoundedRectangleIsland2"
+        android:layout_width="460dp"
+        android:layout_height="76dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/SHP_LayoutHolder"
+        android:layout_width="460dp"
+        android:layout_height="790dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+
+    <TextView
+        android:id="@+id/TV_GuideTXT2"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="2dp"
+        android:justificationMode="inter_word"
+        android:text="The Plant Button is meant for planting (adding) the products onto your list.\n\n- The layout of the Plant would appear on the Feature Input.
+    \n\n- Once you have pressed the Plant, you can input the details of your Product so we can store it in the storage room.
+    \n\n- To Input the Product details, you can press on the Text Box that you can see in front of your screen.
+    \n\n- Once all necessary Text Box has been filled, you can press on the Add Button to add the product onto the list.
+    \n\n- To Exit the Plant Layout, you may press the Plant Button again to hide the layout.
+"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toBottomOf="@+id/IV_estockhomepage6" />
+
+    <ImageView
+        android:id="@+id/IV_estockhomepage6"
+        android:layout_width="180dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="141dp"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toTopOf="@+id/TV_GuideTXT1"
+        app:srcCompat="@drawable/plantbutton" />
+
+    <TextView
+        android:id="@+id/TV_GuideTXT1"
+        android:layout_width="440dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="II.i. E-Stock Button Functions - Plant Button"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toTopOf="@+id/SHP_LayoutHolder" />
+
+    <TextView
+        android:id="@+id/SHP_RoundedRectangleIsland"
+        android:layout_width="462dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BTN_Return"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button2"
+        android:text="Return"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/BTN_Back"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button"
+        android:text="Back"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toStartOf="@+id/BTN_Return"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/BTN_Next"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button"
+        android:text="NEXT"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintStart_toEndOf="@+id/BTN_Return"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <TextView
+        android:id="@+id/TV_Help"
+        android:layout_width="460dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:text="Guide Book to E-Stock"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

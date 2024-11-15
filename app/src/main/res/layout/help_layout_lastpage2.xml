@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/SHP_RoundedRectangleIsland2"
+        android:layout_width="460dp"
+        android:layout_height="76dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/SHP_LayoutHolder"
+        android:layout_width="460dp"
+        android:layout_height="790dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <TextView
+        android:id="@+id/TV_GuideTXT2"
+        android:layout_width="444dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginEnd="6dp"
+        android:justificationMode="inter_word"
+        android:text="Copyright
+                    \nJYB Inc.\n\nE-Stock V0.5.0 rev 4.2\nCopyright © 2023 All rights reserved."
+        android:textSize="22.4dp"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/SHP_RoundedRectangleIsland"
+        android:layout_width="462dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BTN_Return"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button2"
+        android:text="Return"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/BTN_Back"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button"
+        android:text="Back"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toStartOf="@+id/BTN_Return"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/BTN_Next"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/custom_button"
+        android:text="NEXT"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintStart_toEndOf="@+id/BTN_Return"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <TextView
+        android:id="@+id/TV_Help"
+        android:layout_width="460dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:text="Guide Book to E-Stock"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintTop_toTopOf="@+id/SHP_RoundedRectangleIsland2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="55dp"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toTopOf="@+id/SHP_LayoutHolder"
+        app:srcCompat="@drawable/estock" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="313dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="187dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/estocktitle" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="122dp"
+        app:layout_constraintBottom_toBottomOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintEnd_toEndOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintStart_toStartOf="@+id/SHP_LayoutHolder"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/guidebook" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
